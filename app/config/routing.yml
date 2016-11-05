@@ -1,0 +1,7 @@
+unvry_platform:
+    resource: "@UNVRYPlatformBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
